@@ -1,0 +1,92 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Verdana';
+  margin: 0;
+  padding: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    background-color: #295F98;
+    color: #EAE4DD;
+    padding: 20px;
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+}
+.left-panel{
+    display: flex;
+    width: 20%;
+    background-color: #CDC2A5;
+}
+.list ul{
+display: flex;
+flex-direction: column;
+list-style-type: square;
+padding: 50px;
+font-size: 20px;
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: #E1D7C6;
+}
+.article1 h2{
+    font-size: 25px;
+    padding: 25px;
+}
+.article1 p{
+    font-size: 20px;
+    padding: 25px;
+    text-indent: 25px;
+}
+.article1 hr{
+    width: 95%;
+    margin: 0 auto;
+}
+.article2 p{
+    font-size: 20px;
+    padding: 25px;
+    text-indent: 25px;
+}
+.article3 p{
+    font-size: 20px;
+    padding: 25px;
+    text-indent: 25px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    background-color: #CDC2A5;
+    padding: 50px;
+    gap: 10px;
+}
+.form input{
+    font-size: 15px;
+    width: 50%;
+    padding: 5px;
+}
+.form button{
+    font-size: 15px;
+    width: 35%;
+    padding: 3px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #295F98;
+    color: #EAE4DD;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
